@@ -17,7 +17,7 @@ structure:
 	mkdir -vp ./funniest/funniest
 	touch ./funniest/funniest/__init__.py
 	touch ./funniest/setup.py
-code: code1 code 2
+code: code1 code2
 code1:
 	echo "from setuptools import setup" > $(SETUP)
 	echo "" >> $(SETUP)
@@ -44,5 +44,5 @@ test:
 	echo "print(joke() )" >> test.py
 	python test.py
 clean:
-	rm -v test.py
 	rm -rf ./funniest
+	rm -v test.py
