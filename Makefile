@@ -2,7 +2,7 @@ default:
 	@echo "Help: "
 	@echo "     make       : to show this help"
 	@echo "     make build : to setup the package in current directory "
-	@echo "     make run   : to create the package in your python repo "
+	@echo "     sudo make run   : to create the package in your python repo "
 	@echo "     make test  : to test  the package  "
 	@echo "     make clean : to clean up. "
 	@echo " "
